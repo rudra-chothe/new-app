@@ -3,5 +3,10 @@
     "source.fixAll": "explicit",
     "source.organizeImports": "explicit",
     "source.sortMembers": "explicit"
-  }
+  },
+  "kiroAgent.ignoreFiles": [".gitignore", ".ignore", ".kiroignore", ".env"],
+  "kiroAgent.agentAutonomy": "Supervised",
+  "kiroAgent.enableTabAutocomplete": true,
+  "kiroAgent.enableDebugLogs": true,
+  "kiroAgent.enableCodebaseIndexing": true
 }
