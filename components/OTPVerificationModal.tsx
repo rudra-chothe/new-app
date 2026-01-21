@@ -73,11 +73,11 @@ const OTPVerificationModal: React.FC<OTPVerificationModalProps> = ({
     }
   };
 
-  const handleResend = () => {
-    setOtpValue("");
-    setTimeLeft(30);
-    setCanResend(false);
-  };
+  // const handleResend = () => {
+  //   setOtpValue("");
+  //   setTimeLeft(30);
+  //   setCanResend(false);
+  // };
 
   const handleClose = () => {
     Keyboard.dismiss();
